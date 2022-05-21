@@ -1,4 +1,4 @@
-//screen.rs loads the different screen elements and displays them 
+//render.rs loads the different screen elements and displays them 
 //to the terminal.
 
 //load quadrants based off player_pos putting the tiles that will
@@ -18,6 +18,6 @@ fn load_structures(player_pos: [i64; 2]) {
 //renders loaded tiles from the load_terrain and load_structures 
 //functions to the terminal all surrounded by a border
 fn render_screen(terrain_data: [[char; 32]; 18], structure_data: [[char; 32]; 18]) {
-    let render_resolution: [i8; 2] = [32, 18];
+    let render_resolution: [i8; 2] = [33, 19];
     //not implemented
 }
